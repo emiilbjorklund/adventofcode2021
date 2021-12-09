@@ -5,10 +5,11 @@
 https://adventofcode.com/
 
 
-* Day 1: Python
+* Day 1: Bash/Python
 * Day 2: Python
 * Day 3: Java
 * Day 4: JavaScript
-* Day 6: C++
+* Day 5: C++
+* Day 6: Rust
 
 ...
