@@ -11,5 +11,6 @@ https://adventofcode.com/
 * Day 4: JavaScript
 * Day 5: C++
 * Day 6: Rust
+* Day 7: Scala
 
 ...
