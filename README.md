@@ -12,6 +12,9 @@ https://adventofcode.com/
 * Day 5: C++
 * Day 6: Rust
 * Day 7: Scala (part 1)
-* --- TODO
+* Day 8: TODO
+* Day 9: TODO
+* Day 10: Python
 * Day 11: Python
+* Day 12: TODO
 * Day 13: Python
