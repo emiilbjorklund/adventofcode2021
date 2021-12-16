@@ -18,3 +18,6 @@ https://adventofcode.com/
 * Day 11: Python
 * Day 12: TODO
 * Day 13: Python
+* Day 14: Python
+* Day 15: Python
+* Day 16: Python
