@@ -27,27 +27,6 @@ def literal(input):
     
     return seq[1:5] + literal(input)
 
-def traverse(packet, version):
-    lengthId = _([packet[0]]);del packet[0]
-    print("OP LengthId: ", lengthId)
-
-    if lengthId == 0:
-        subLength = _(packet[0:15]);del packet[0:15]
-        print("Sub length: ", subLength)
-        sub = packet[0:subLength];del packet[0:subLength]
-        s = 0
-        while(len(sub) > 0):
-            s += solve(sub) 
-        return s + version
-    else:
-        subCount = _(packet[0:11]);del packet[0:11]
-        print("Sub count: ", subCount)
-        s = 0
-        for i in range(subCount):
-            s += solve(packet) 
-        return s + version
-
-
 def solve(packet):
     print("Packet: ", packet)
 
@@ -78,13 +57,6 @@ def solve(packet):
             s += solve(packet) 
         return s + version
     
-
-    
-
-    
-    
-    
-
 
 
 if __name__ == "__main__":
