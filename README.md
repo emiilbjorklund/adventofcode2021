@@ -1,5 +1,7 @@
 # Advent of Code 2021
 
+Trying to explore some other languages than Python with varying degrees of success. I'm also keeping libraries and utils other than the standards libraries to a minimum.
+
 
 
 https://adventofcode.com/
